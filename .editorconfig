@@ -1,0 +1,17 @@
+root = true
+
+[*]
+charset = utf-8
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+tab_width = 4
+trim_trailing_whitespace = true
+
+[*.cs]
+dotnet_separate_import_directive_groups = false
+dotnet_sort_system_directives_first = true
+
+[*.csproj]
+indent_size = 2
+tab_width = 2
