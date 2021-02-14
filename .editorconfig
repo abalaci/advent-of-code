@@ -9,8 +9,13 @@ tab_width = 4
 trim_trailing_whitespace = true
 
 [*.cs]
+csharp_using_directive_placement = outside_namespace
+
 dotnet_separate_import_directive_groups = false
 dotnet_sort_system_directives_first = true
+
+dotnet_style_predefined_type_for_locals_parameters_members = true
+dotnet_style_predefined_type_for_member_access = true
 
 [*.csproj]
 indent_size = 2
