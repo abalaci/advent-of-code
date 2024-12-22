@@ -3,7 +3,7 @@ using System;
 namespace AdventOfCode
 {
     [AttributeUsage(AttributeTargets.Class)]
-    public class AdventCalendarAttribute : Attribute
+    public sealed class AdventCalendarAttribute : Attribute
     {
         public AdventCalendarAttribute(uint year, uint day)
         {
